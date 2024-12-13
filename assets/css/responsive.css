@@ -1,0 +1,24 @@
+/* Responsive */
+/* PC ==> lg & xl & xxl */
+@media screen and (min-width: 992px) {
+}
+
+/* Tablet & Mobile ==> None & sm & md */
+@media screen and (max-width: 991.98px) {
+    .popular-row,
+    .blog-row {
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+}
+
+/* Tablet ==> md */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Mobile ==> None & sm */
+@media screen and (max-width: 767.98px) {
+    .feedback-row {
+        flex-direction: column-reverse;
+    }
+}

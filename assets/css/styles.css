@@ -1,0 +1,54 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    /* 
+    Heading
+    font-family: "Sen", sans-serif; 700
+    */
+}
+
+/* Common */
+.inner {
+    margin-top: 10px;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+    background-color: #ccc;
+    border: 1px dotted orange;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Sen", sans-serif;
+}
+
+input,
+textarea,
+select,
+button {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-tap-highlight-color: none;
+}
